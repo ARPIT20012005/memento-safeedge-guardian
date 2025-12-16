@@ -6,7 +6,7 @@ import numpy as np
 model = tf.keras.models.load_model("child_detection_model.h5")
 
 IMG_SIZE = 96
-THRESHOLD = 0.35
+THRESHOLD = 0.39
 
 cap = cv2.VideoCapture(0)
 
