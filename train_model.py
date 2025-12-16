@@ -3,7 +3,7 @@ from tensorflow.keras import layers, models
 
 IMG_SIZE = 96
 BATCH_SIZE = 8
-EPOCHS = 5
+EPOCHS = 20
 DATASET_PATH = "dataset"
 
 train_ds = tf.keras.utils.image_dataset_from_directory(
